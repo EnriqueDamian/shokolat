@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SHOKOLAD</title>
+  <link href="./assets/palemo.png" rel="shortcut icon" >
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="{{asset('public/sitioweb/css/slick.css')}}" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="{{asset('public/sitioweb/css/slick-theme.css')}}" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="{{asset('public/sitioweb/css/scrolling-nav.css')}}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+
+  @include('templates.sitioweb.MenuSitioWeb')
+  <section id="fondo">
+    <div id="content">
+
+      <section class="inner-content">
+        <div class="container">
+          <!-- ****************** About Us Section	****************** -->
+          <div class="about-us">
+            <div class="heading"><span>Nosotros</span></div>
+            <label>What is Lorem Ipsum?</label>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+              of
+              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+              Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+            <div class="img"><img src="../public/sitioweb/assets/logo.jpg" alt="" class="img-responsive"></div>
+            <label>Why do we use it?</label>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+              letters, as opposed to using 'Content here, content here', making it look like readable English. Many
+              desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+              search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved
+              over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+            <label>General Shipping Costs</label>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout.</p>
+
+
+            <label>What is Lorem Ipsum?</label>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.</p>
+
+            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+              to
+              using 'Content here, content here', making it look like readable English. Many desktop publishing packages
+              and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+              uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+              accident, sometimes on purpose (injected humour and the like).</p>
+          </div>
+
+
+
+        </div>
+      </section>
+
+
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div id="footer-inner" class="width width-offset">
+      <nav id="footer-menu">
+        <ul class="left-menu">
+          <li><a href="/about/" title="">Nosotros</a></li>
+          <li><a href="/assortment/" title="">Productos</a></li>
+          <li><a href="/about/contacts/" title="">Contactanos</a></li>
+        </ul>
+      </nav>
+      <div id="footer-phone-layer">
+        <!--<div class="text">Hotline telephone</div>
+   
+  <div class="number">8-800-200-55-99</div>-->
+      </div>
+      <div id="footer-copyrights">
+        © 2019 — 2020 <strong style="text-transform: uppercase;"> Comercializadora PALEMO </strong>
+        <p><a href="/about/map/" class="sitemap"></a></p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- Plugin JavaScript -->
+
+  <script src="{{asset('public/sitioweb/js/slick.min.js')}}"></script>
+
+  <!-- Custom JavaScript for this theme -->
+ <script src="{{asset('public/sitioweb/js/scrolling-nav.js')}}"></script>
+</body>
+
+</html>

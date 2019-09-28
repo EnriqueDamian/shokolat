@@ -1,0 +1,53 @@
+<div class="sidebar-wrapper">
+        <ul class="nav">
+          
+          <li class="nav-item active">
+            <a id="MenuAdmin" class="nav-link" href=" <?php echo e(action('AdministradorController@MostrarListadoMarcas')); ?> "><i class="material-icons">dashboard</i>
+              <p>Marcas</p>
+            </a>
+          </li>
+
+
+          <li class="nav-item active">
+            <a id="MenuAdmin" class="nav-link" href=" <?php echo e(action('AdministradorController@MostrarListadoProductos')); ?> "><i class="material-icons">dashboard</i>
+              <p>Productos</p>
+            </a>
+          </li>
+
+          <li class="nav-item active">
+            <a id="MenuAdmin" class="nav-link" href=" <?php echo e(action('AdministradorController@MostrarFormularioMision')); ?> "><i class="material-icons">dashboard</i>
+              <p>Mision</p>
+            </a>
+          </li>
+
+          <li class="nav-item active">
+            <a id="MenuAdmin" class="nav-link" href=" <?php echo e(action('AdministradorController@MostrarFormularioVision')); ?> "><i class="material-icons">dashboard</i>
+              <p>Vision</p>
+            </a>
+          </li>
+
+          <li class="nav-item active">
+            <a id="MenuAdmin" class="nav-link" href=" <?php echo e(action('AdministradorController@MostrarListadoContactos')); ?> "><i class="material-icons">dashboard</i>
+              <p>Contacto</p>
+            </a>
+          </li>
+
+          <li class="nav-item active">
+            <a id="MenuAdmin" class="nav-link" href=" <?php echo e(action('AdministradorController@MostrarHistoria')); ?> "><i class="material-icons">dashboard</i>
+              <p>Historia</p>
+            </a>
+          </li>
+
+          <li class="nav-item active">
+            <a id="MenuAdmin" class="nav-link" href=" <?php echo e(action('AdministradorController@MostrarInicio')); ?> "><i class="material-icons">dashboard</i>
+              <p>Sitio Web</p>
+            </a>
+          </li>
+
+
+
+
+
+          <!-- your sidebar here -->
+        </ul>
+      </div>
